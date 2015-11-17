@@ -65,7 +65,9 @@ html {
 }
 body {
   margin: 0;
-   
+   background-image : url('images/1010750.jpg');
+      background-size: cover;
+    background-position: center;
 }
 article,
 aside,

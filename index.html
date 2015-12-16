@@ -10,10 +10,13 @@
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!--link href="css/pingendov4.css" rel="stylesheet" type="text/css"-->
     <link href="css/pingendo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="">
     <title>行旅者驛站</title>
   </head><body style="background-image : url('images/1010750.jpg');background-size: cover;">
-    <div class="navbar navbar-default navbar-fixed-top" style="background-color: rgba(255, 255, 255, 0.8);">
+    <div class="navbar navbar-default navbar-fixed-top" style="background-color: rgba(255, 255, 255, 0.7);">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
@@ -30,7 +33,7 @@
               <a href="#"><i class="-official fa fa-fw fa-home fa-lg"></i>首頁</a>
             </li>
             <li>
-              <a href="#"><i class="fa -official fa-fw fa-lg fa-heart-o"></i>關於我們</a>
+              <a href="#about"><i class="fa -official fa-fw fa-lg fa-heart-o"></i>關於我們</a>
             </li>
             <li>
               <a href="https://www.facebook.com/Travelerscafe/"><i class="fa fa-facebook-official fa-fw fa-lg text-primary"></i>粉絲團</a>
@@ -39,16 +42,19 @@
         </div>
       </div>
     </div>
-    <div class="cover" style="background-color: rgba(255, 255, 255, 0.1);">
+    <div class="cover" style="background-color: rgba(0, 0, 0, 0.6);">
       <div class="background-image-fixed cover-image" style="background-image : url('images/1010693.jpg')"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
             <br>
             <br>
-            <div class="text-left" style="color:#cccccc">
-              <h1>
-                <font style="text-shadow:3px 3px #630c05;filter：shadow（Color=#630c05,Direction=135,Strength=1）">行旅者驛站</font>
+            <div class="text-left" style="color:#ffffff">
+              <h1 class="hidden-xs">
+                <font style="text-shadow:3px 3px #630c05;font-size:80px;filter：shadow（Color=#630c05,Direction=135,Strength=1）">行旅者驛站</font>
+              </h1>
+              <h1 class="visible-xs">
+                <font style="text-shadow:3px 3px #630c05;font-size:36px;filter：shadow（Color=#630c05,Direction=135,Strength=1）">行旅者驛站</font>
               </h1>
             </div>
             <div style="background-color:rgba(0,0,0,0.2);text-align:right;color:#ffffff">
@@ -61,253 +67,70 @@
         </div>
       </div>
     </div>
-    <div class="section" style="height:100%;background-color: rgba(255, 255, 255, 0.2)">
+    <div class="section" style="height:100% ;background-color:rgba(255,255,255,0.2)" id="about">
+      <div id="slider">
+        <ul class="clearfix">
+          <li>
+            <a><img src="images/07.jpg" alt=""></a>
+          </li>
+          <li>
+            <a><img src="images/02.jpg" alt=""></a>
+          </li>
+          <li>
+            <a><img src="images/03.jpg" alt=""></a>
+          </li>
+          <li>
+            <a><img src="images/04.jpg" alt=""></a>
+          </li>
+          <li>
+            <a><img src="images/05.jpg" alt=""></a>
+          </li>
+          <li>
+            <a><img src="images/06.jpg" alt=""></a>
+          </li>
+        </ul>
+        <p id="prev">
+          <img src="images/prev.png" alt="" width="64" height="64" class="rollover">
+        </p>
+        <p id="next">
+          <img src="images/next.png" width="64" height="64" class="rollover">
+        </p>
+        <!-- /slider -->
+      </div>
+      <div class="section" style="background-color:rgba(0,0,0,0.3);margin:15px;padding-top:2px">
+        <br>
+        <h6 style="color:#ffffff;padding-left:10px">你的面孔總如金屬般冰冷</h6>
+        <h6 style="color:#ffffff;padding-left:10px">卻被我瓷白色的溫暖融化</h6>
+        <div style="height:5px"></div>
+        <h6 style="color:#ffffff;padding-left:10px">你的憂慮如微焦的摩卡酸澀</h6>
+        <h6 style="color:#ffffff;padding-left:10px">卻有我雪白的寬容調合</h6>
+        <div style="height:5px"></div>
+        <h6 style="color:#ffffff;padding-left:10px">還記得嗎？沿著杯緣接吻的那一夜</h6>
+        <h6 style="color:#ffffff;padding-left:10px">我還在那個熟悉的角落，</h6>
+        <h6 style="color:#ffffff;padding-left:10px">等著你 未完的故事。</h6>
+      </div>
+    </div>
+    <div class="p-y-lg section">
+      <div class="background-image" style="background-image : url('http://maps.googleapis.com/maps/api/staticmap?center=新北市板橋區忠孝路275號&amp;zoom=14&amp;size=600x600&amp;sensor=false&amp;scale=2')"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center" style="">
-            <!-- Start cssSlider.com -->
-            <!-- Generated by cssSlider.com 2.1 -->
-            <link rel="stylesheet" href="cssslider_files/csss_engine1/style.css">
-            <!--[if IE]>
-              <link rel="stylesheet" href="cssslider_files/csss_engine1/ie.css">
-            <![endif]-->
-            <!--[if lte IE 9]>
-              <script type="text/javascript" src="cssslider_files/csss_engine1/ie.js"></script>
-            <![endif]-->
-            <div class="csslider1 autoplay ">
-              <input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
-              <input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
-              <input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
-              <input name="cs_anchor1" id="cs_slide1_3" type="radio" class="cs_anchor slide">
-              <input name="cs_anchor1" id="cs_slide1_4" type="radio" class="cs_anchor slide">
-              <input name="cs_anchor1" id="cs_slide1_5" type="radio" class="cs_anchor slide">
-              <input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="">
-              <input name="cs_anchor1" id="cs_pause1_0" type="radio" class="cs_anchor pause">
-              <input name="cs_anchor1" id="cs_pause1_1" type="radio" class="cs_anchor pause">
-              <input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
-              <input name="cs_anchor1" id="cs_pause1_3" type="radio" class="cs_anchor pause">
-              <input name="cs_anchor1" id="cs_pause1_4" type="radio" class="cs_anchor pause">
-              <input name="cs_anchor1" id="cs_pause1_5" type="radio" class="cs_anchor pause">
-              <ul>
-                <li class="cs_skeleton">
-                  <img src="cssslider_files/csss_images1/1010711a_mini.jpg" style="width: 100%;">
-                </li>
-                <li class="num0 img slide">
-                  <img src="cssslider_files/csss_images1/1010711a_mini.jpg" alt="1010711a_mini" title="1010711a_mini">
-                </li>
-                <li class="num1 img slide">
-                  <img src="cssslider_files/csss_images1/1010742a_mini.jpg" alt="1010742a_mini" title="1010742a_mini">
-                </li>
-                <li class="num2 img slide">
-                  <img src="cssslider_files/csss_images1/1010747a_mini.jpg" alt="1010747a_mini" title="1010747a_mini">
-                </li>
-                <li class="num3 img slide">
-                  <img src="cssslider_files/csss_images1/1010763a_mini.jpg" alt="1010763a_mini" title="1010763a_mini">
-                </li>
-                <li class="num4 img slide">
-                  <img src="cssslider_files/csss_images1/img_2811a_mini.jpg" alt="IMG_2811a_mini" title="IMG_2811a_mini">
-                </li>
-                <li class="num5 img slide">
-                  <img src="cssslider_files/csss_images1/img_8062a_mini.jpg" alt="IMG_8062a_mini" title="IMG_8062a_mini">
-                </li>
-              </ul>
-              <div class="cs_engine">
-                <a href="http://cssslider.com">css slider</a>by cssSlider.com v2.1m</div>
-              <div class="cs_description">
-                <label class="num0">
-                  <span class="cs_title">
-                    <span class="cs_wrapper">1010711a_mini</span>
-                  </span>
-                </label>
-                <label class="num1">
-                  <span class="cs_title">
-                    <span class="cs_wrapper">1010742a_mini</span>
-                  </span>
-                </label>
-                <label class="num2">
-                  <span class="cs_title">
-                    <span class="cs_wrapper">1010747a_mini</span>
-                  </span>
-                </label>
-                <label class="num3">
-                  <span class="cs_title">
-                    <span class="cs_wrapper">1010763a_mini</span>
-                  </span>
-                </label>
-                <label class="num4">
-                  <span class="cs_title">
-                    <span class="cs_wrapper">IMG_2811a_mini</span>
-                  </span>
-                </label>
-                <label class="num5">
-                  <span class="cs_title">
-                    <span class="cs_wrapper">IMG_8062a_mini</span>
-                  </span>
-                </label>
-              </div>
-              <div class="cs_play_pause">
-                <label class="cs_play" for="cs_play1">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="cs_pause num0" for="cs_pause1_0">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="cs_pause num1" for="cs_pause1_1">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="cs_pause num2" for="cs_pause1_2">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="cs_pause num3" for="cs_pause1_3">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="cs_pause num4" for="cs_pause1_4">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="cs_pause num5" for="cs_pause1_5">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-              </div>
-              <div class="cs_arrowprev">
-                <label class="num0" for="cs_slide1_0">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num1" for="cs_slide1_1">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num2" for="cs_slide1_2">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num3" for="cs_slide1_3">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num4" for="cs_slide1_4">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num5" for="cs_slide1_5">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-              </div>
-              <div class="cs_arrownext">
-                <label class="num0" for="cs_slide1_0">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num1" for="cs_slide1_1">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num2" for="cs_slide1_2">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num3" for="cs_slide1_3">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num4" for="cs_slide1_4">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-                <label class="num5" for="cs_slide1_5">
-                  <span>
-                    <i></i>
-                    <b></b>
-                  </span>
-                </label>
-              </div>
-              <div class="cs_bullets">
-                <label class="num0" for="cs_slide1_0">
-                  <span class="cs_point"></span>
-                  <span class="cs_thumb">
-                    <img src="cssslider_files/csss_tooltips1/1010711a_mini.jpg" alt="1010711a_mini" title="1010711a_mini">
-                  </span>
-                </label>
-                <label class="num1" for="cs_slide1_1">
-                  <span class="cs_point"></span>
-                  <span class="cs_thumb">
-                    <img src="cssslider_files/csss_tooltips1/1010742a_mini.jpg" alt="1010742a_mini" title="1010742a_mini">
-                  </span>
-                </label>
-                <label class="num2" for="cs_slide1_2">
-                  <span class="cs_point"></span>
-                  <span class="cs_thumb">
-                    <img src="cssslider_files/csss_tooltips1/1010747a_mini.jpg" alt="1010747a_mini" title="1010747a_mini">
-                  </span>
-                </label>
-                <label class="num3" for="cs_slide1_3">
-                  <span class="cs_point"></span>
-                  <span class="cs_thumb">
-                    <img src="cssslider_files/csss_tooltips1/1010763a_mini.jpg" alt="1010763a_mini" title="1010763a_mini">
-                  </span>
-                </label>
-                <label class="num4" for="cs_slide1_4">
-                  <span class="cs_point"></span>
-                  <span class="cs_thumb">
-                    <img src="cssslider_files/csss_tooltips1/img_2811a_mini.jpg" alt="IMG_2811a_mini" title="IMG_2811a_mini">
-                  </span>
-                </label>
-                <label class="num5" for="cs_slide1_5">
-                  <span class="cs_point"></span>
-                  <span class="cs_thumb">
-                    <img src="cssslider_files/csss_tooltips1/img_8062a_mini.jpg" alt="IMG_8062a_mini" title="IMG_8062a_mini">
-                  </span>
-                </label>
+          <div class="col--4">
+            <div class="card bg-info" draggable="true">
+              <div class="card-block">
+                <address>
+                  <strong>行旅者驛站咖啡館</strong>
+                  <br>新北市板橋區
+                  <br>忠孝路275號
+                  <br>
+                  <abbr title="Phone">Tel:</abbr>(02) 2958-2900</address>
               </div>
             </div>
-            <!-- End cssSlider.com -->
           </div>
         </div>
       </div>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+      <script src="js/script.js"></script>
     </div>
   
 
